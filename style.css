@@ -1,0 +1,60 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #111;
+  color: #fff;
+}
+
+header {
+  background: #1f1f1f;
+  padding: 20px;
+  text-align: center;
+}
+
+.account-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+.account {
+  background: #222;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.account h2 {
+  margin-top: 0;
+  color: #ffd700;
+}
+
+.account ul {
+  list-style: none;
+  padding: 0;
+}
+
+.account li {
+  margin-bottom: 5px;
+}
+
+button {
+  background: #00c853;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #00e676;
+}
+
+footer {
+  background: #1f1f1f;
+  padding: 15px;
+  text-align: center;
+}
